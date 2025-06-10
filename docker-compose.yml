@@ -1,0 +1,15 @@
+version: '3'
+services:
+  api:
+    build: ./backend
+    ports:
+      - "3000:3000"
+  frontend:
+    build: ./frontend
+    ports:
+      - "4200:4200"
+  python:
+    image: python:3.9
+    volumes:
+      - ./scripts:/scripts
+    working_dir: /scripts

@@ -1,0 +1,5 @@
+<form (submit)="submitBackup()">
+  <input type="text" [(ngModel)]="sourceDir" name="sourceDir" placeholder="Source Directory" required>
+  <input type="text" [(ngModel)]="backupName" name="backupName" placeholder="Backup Name" required>
+  <button type="submit">Trigger Backup</button>
+</form>
