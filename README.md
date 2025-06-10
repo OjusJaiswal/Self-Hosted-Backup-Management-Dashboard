@@ -12,7 +12,3 @@ A dashboard to manage and simulate file backups for on-premise systems. It uses 
 ```bash
 docker-compose up --build
 ```
-
-## Screenshots
-- 📷 Backup form
-- 📷 Backup logs list
